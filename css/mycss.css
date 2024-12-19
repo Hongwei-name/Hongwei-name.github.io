@@ -91,47 +91,9 @@
 
   /* 导航栏 */
 /* 导航栏样式 */
-#nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #add8e6; /* 浅蓝色背景 */
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 轻微的阴影效果 */
-  }
-  
-  /* 导航项样式 */
-  .menus_items {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-  }
-  
-  .menus_item {
-    margin: 0 15px;
-  }
-  
-  .menus_item a {
-    text-decoration: none;
-    color: #ffffff; /* 文字颜色为白色 */
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .menus_item a:hover {
-    color: #b0e0e6; /* 鼠标悬停时的文字颜色 */
-  }
-  
-  /* 响应式设计 */
-  @media (max-width: 768px) {
-    .menus_items {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .menus_item {
-      margin: 10px 0;
-    }
-  }
+
+
+/* 鼠标样式 */
+.custom-cursor {
+    cursor: url('../img/ProiconsCursorClick.png'), auto;
+}
